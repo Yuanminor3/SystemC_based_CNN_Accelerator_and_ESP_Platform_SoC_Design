@@ -1,0 +1,23 @@
+make esplink
+./socgen/esp/esplink --load -i ./data_leon3/cat.bin -a 0x50000000
+./socgen/esp/esplink --load -i ./data_leon3/dog.bin -a 0x50003630
+./socgen/esp/esplink --load -i ./data_leon3/bird.bin -a 0x50006C60
+./socgen/esp/esplink --load -i ./data_leon3/frog.bin -a 0x5000A290
+./socgen/esp/esplink --load -i ./data_leon3/truck.bin -a 0x5000D8C0
+./socgen/esp/esplink --load -i ./data_leon3/airplane.bin -a 0x50010EF0
+./socgen/esp/esplink --load -i ./data_leon3/automobile.bin -a 0x50014520
+./socgen/esp/esplink --load -i ./data_leon3/deer.bin -a 0x50017B50
+./socgen/esp/esplink --load -i ./data_leon3/ship.bin -a 0x5001B180
+./socgen/esp/esplink --load -i ./data_leon3/horse.bin -a 0x5001E7B0
+./socgen/esp/esplink --load -i ./data_leon3/conv1.bin -a 0x50021DE0
+./socgen/esp/esplink --load -i ./data_leon3/conv2.bin -a 0x50022B60
+./socgen/esp/esplink --load -i ./data_leon3/conv3.bin -a 0x5002BB60
+./socgen/esp/esplink --load -i ./data_leon3/conv4.bin -a 0x5003DB60
+./socgen/esp/esplink --load -i ./data_leon3/bias1.bin -a 0x50085B60
+./socgen/esp/esplink --load -i ./data_leon3/bias2.bin -a 0x50085BE0
+./socgen/esp/esplink --load -i ./data_leon3/bias3.bin -a 0x50085C60
+./socgen/esp/esplink --load -i ./data_leon3/bias4.bin -a 0x50085D60
+./socgen/esp/esplink --load -i ./data_leon3/bias5.bin -a 0x50085F60
+./socgen/esp/esplink --load -i ./data_leon3/bias6.bin -a 0x50086060
+./socgen/esp/esplink --load -i ./data_leon3/fc1.bin -a 0x50086088
+./socgen/esp/esplink --load -i ./data_leon3/fc2.bin -a 0x50106088
